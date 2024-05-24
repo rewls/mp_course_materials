@@ -4,7 +4,7 @@
 
 ## Contents
 
-- [x] [GNU ARM 어셈블리 실습 환경 구축 방법](GNU-ARM-어셈블리-실습-환경-구축-방법.md)
+- [x] [GNU ARM 어셈블리 실습 환경 구축 방법](gnu-arm-어셈블리-실습-환경-구축-방법.md)
 
 - [ ] mp_course_ex0401
 

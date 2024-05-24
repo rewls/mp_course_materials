@@ -36,7 +36,7 @@
 
 - [Dockerfile](Dockerfile)
 
-    - [리눅스에 개발환경 설정하기](리눅스에-개발환경-설정하기), [유비노스 기본 소스 트리 가져오기](#유비노스-기본-소스-트리-가져오기)
+    - [리눅스에 개발환경 설정하기](#리눅스에-개발환경-설정하기), [유비노스 기본 소스 트리 가져오기](#유비노스-기본-소스-트리-가져오기)
 
     ```shell
     $ docker build -t microprocessor .
@@ -56,14 +56,22 @@
 #### 1. 필요 패키지를 설치한다.
 
 ```shell
- pacman -Syu
- pacman -S --noconfirm cmake gcc git make python python-pip python-virtualenv qemu qemu-system-arm tk vim
+# pacman -Syu
+# pacman -S base-devel ccache cmake git noto-fonts python python-pip \
+    python-virtualenv qemu qemu-system-arm tk vim xterm
 ```
 
 ```shell
 $ python -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ pip install ttkwidgets
+```
+
+```shell
+$ git clone https://aur.archlinux.org/ncurses5-compat-libs.git
+$ cd ncurses5-compat-libs
+$ gpg --recv-keys 19882D92DDA4C400C22C0D56CC2AF4472167BE03
+$ makepkg -srci
 ```
 
 #### 2. 그누 암 임베디드 툴체인 설치 패키지를 받는다.
@@ -75,10 +83,10 @@ $ curl -O https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm
 #### 3. 그누 암 임베디드 툴체인을 설치한다.
 
 ```shell
- mkdir /opt/toolchain
- cd /opt/toolchain
- tar xfj /home/rewls/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
- ln -s gcc-arm-none-eabi-10.3-2021.10/ gcc-arm-none-eabi
+# mkdir /opt/toolchain
+# cd /opt/toolchain
+# tar xfj /home/rewls/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux.tar.bz2
+# ln -s gcc-arm-none-eabi-10.3-2021.10/ gcc-arm-none-eabi
 ```
 
 #### 4. 환경변수 `PATH`에 그누 암 임데디드 툴체인 실행 파일 경로를 추가한다.
@@ -101,7 +109,7 @@ $ git submodule foreach git switch ubinos-main
 1. 라이브러리 관리자를 연다.
 
     ```shell
-    cd make
+    $ cd make
     $ make xmgr
     ```
 
@@ -118,7 +126,8 @@ $ make help
 1. 라이브러리를 최신 버전으로 강제 갱신한다.
 
     ```shell
-    make xmgr
+    $ cd make
+    $ make xmgr
     ```
 
     - Check for update all
@@ -148,8 +157,7 @@ $ make help
 5. 디버깅을 시작한다.
 
     ```shell
-    $ cd make
-    $ make load && make debug
+    $ make debug
     ```
 
 6. `appmain` 함수에 중단점을 설정한다.
@@ -163,4 +171,3 @@ $ make help
     ```shell
     (gdb) c
     ```
-
