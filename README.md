@@ -6,7 +6,7 @@
 
 - [x] [GNU ARM 어셈블리 실습 환경 구축 방법](gnu-arm-어셈블리-실습-환경-구축-방법.md)
 
-- [ ] mp_course_ex0401
+- [x] [mp_course_ex0401](mp_course_ex0401.md)
 
 - [ ] mp_course_ex0501_main_1
 
