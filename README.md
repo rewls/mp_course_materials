@@ -14,7 +14,7 @@
 
 - [x] [mp_course_ex0503_main_3](mp_course_ex0503_main_3.md)
 
-- [ ] mp_course_ex0504_hello_world_1
+- [x] [mp_course_ex0504_hello_world_1](mp_course_ex0504_hello_world_1.md)
 
 - [ ] mp_course_ex0505_hello_world_2
 

@@ -1,14 +1,5 @@
 # mp_course_ex0503_main_3
 
-## Source 
-
-```as
-appmain:
-    movs    r0, #0
- 
-    bx      lr
-```
-
 ## Debug
 
 ```as
