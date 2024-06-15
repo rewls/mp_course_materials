@@ -8,7 +8,7 @@
 
 - [x] [mp_course_ex0401](mp_course_ex0401.md)
 
-- [ ] mp_course_ex0501_main_1
+- [x] [mp_course_ex0501_main_1](mp_course_ex0501_main_1.md)
 
 - [ ] mp_course_ex0502_main_2
 

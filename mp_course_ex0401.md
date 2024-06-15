@@ -28,7 +28,7 @@ void GPIO_reset(GPIO_TypeDef* GPIOx)
 
 - CMSIS device
 
-- Section 2.7 Inputs, outputs, and peripherals accesses
+- The Definitive Guide to ARM® Cortex<sup>®</sup>-M3 and Cortex<sup>®</sup>-M4 Processors > 2.7 Inputs, outputs, and peripherals accesses
 
 ```c
 int appmain(int argc, char * argv[])
@@ -54,7 +54,7 @@ int appmain(int argc, char * argv[])
 
 ## Debug
 
-```
+```c
 40          GPIO_reset(GPIOA); /* Reset GPIO A */
 (gdb) ptype/o GPIOA
 type = struct {
@@ -78,7 +78,7 @@ type = struct {
 0x40010810:     0x00000000      0x00000000      0x00000000
 ```
 
-```
+```c
 47              bsp_busywaitms(5000);
 (gdb) s
 bsp_busywaitms (timems=5000) at /home/rewls/git/ubiworks/library/ubinos/source/ubinos/bsp/arch/arm/cortexm/bsp.c:118
