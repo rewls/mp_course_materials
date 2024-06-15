@@ -10,7 +10,7 @@
 
 - [x] [mp_course_ex0501_main_1](mp_course_ex0501_main_1.md)
 
-- [ ] mp_course_ex0502_main_2
+- [x] [mp_course_ex0502_main_2](mp_course_ex0502_main_2.md)
 
 - [ ] mp_course_ex0503_main_3
 

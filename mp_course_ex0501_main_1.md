@@ -1,4 +1,6 @@
-# mp_course_ex0501_main_1-0503_main_3
+# mp_course_ex0501_main_1
+
+> mp_course_ex0501_main_1_netduinoplus2_baremetal_qume
 
 ## source
 
