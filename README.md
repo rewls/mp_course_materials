@@ -12,7 +12,7 @@
 
 - [x] [mp_course_ex0502_main_2](mp_course_ex0502_main_2.md)
 
-- [ ] mp_course_ex0503_main_3
+- [x] [mp_course_ex0503_main_3](mp_course_ex0503_main_3.md)
 
 - [ ] mp_course_ex0504_hello_world_1
 
