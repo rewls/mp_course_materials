@@ -36,7 +36,7 @@
 
 - [Dockerfile](Dockerfile)
 
-    - [리눅스에 개발환경 설정하기](#리눅스에-개발환경-설정하기), [유비노스 기본 소스 트리 가져오기](#유비노스-기본-소스-트리-가져오기)
+    - [리눅스에 개발 환경 설정하기](#리눅스에-개발-환경-설정하기), [유비노스 기본 소스 트리 가져오기](#유비노스-기본-소스-트리-가져오기)
 
     ```sh
     $ docker build -t microprocessor .
@@ -181,7 +181,6 @@ $ make help
     $ cd ubiworks_mpc2024a_<student id>_<name initial>
     $ git submodule update --init
     $ git submodule foreach git switch ubinos-main
-    $ cd ..
     ```
 
 2. 라이브러리를 최신 버전으로 강제 갱신
@@ -209,7 +208,7 @@ $ make help
 
     - Copy 
 
-    - Name <quiz name>_<student id>_<name initial>
+    - Name \<quiz name\>_\<student id\>_\<name initial\>
 
 4. `app` 디렉토리에서 코드 수정
 

@@ -14,11 +14,11 @@
 
 - [x] [mp_course_ex0507_allocating_space_1-0508_allocating_space_2](mp_course_ex0507_allocating_space_1-0508_allocating_space_2.md)
 
-- [ ] mp_course_ex0508_allocating_space_2
+- mp_course_ex0601_arm_thumb_interwork
 
-- [ ] mp_course_ex0601_arm_thumb_interwork
+    - 가상환경 미지원
 
-- [ ] mp_course_ex0602_accessing_psr
+- [x] [mp_course_ex0602_accessing_psr](mp_course_ex0602_accessing_psr.md)
 
 - [ ] mp_course_ex0603_interrupt_masking
 
