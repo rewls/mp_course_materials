@@ -10,11 +10,7 @@
 
 - [x] [mp_course_ex0501_main_1-0503_main_3](mp_course_ex0501_main_1-0503_main_3.md)
 
-- [x] [mp_course_ex0504_hello_world_1](mp_course_ex0504_hello_world_1.md)
-
-- [ ] [mp_course_ex0505_hello_world_2](mp_course_ex0505_hello_world_2.md)
-
-- [ ] mp_course_ex0506_hello_world_3
+- [x] [mp_course_ex0504_hello_world_1-0506_hello_world_3](mp_course_ex0504_hello_world_1-0506_hello_world_3.md)
 
 - [ ] mp_course_ex0507_allocating_space_1
 

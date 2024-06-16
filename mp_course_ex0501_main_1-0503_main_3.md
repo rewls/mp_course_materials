@@ -2,7 +2,7 @@
 
 ## mp_course_ex0501_main_1_stm32vldisco_baremetal_qemu
 
-### source
+### Source
 
 ```c
 int appmain(int argc, char * argv[])
@@ -162,6 +162,8 @@ basepri        0x0                 0
 faultmask      0x0                 0
 ```
 
+- `sub sp, #8`가 아니라 `sub sp, #12` 사용
+
 ## mp_course_ex0502_main_2_stm32vldisco_baremetal_qemu
 
 ### Source
@@ -209,13 +211,13 @@ appmain:
     push    {r7}
     sub     sp, #12
     add     r7, sp, #0
- 
+
     str     r0, [r7, #4]
     str     r1, [r7, #0]
- 
+
     movs    r3, #0
     mov     r0, r3
- 
+
     adds    r7, #12
     mov     sp, r7
     pop     {r7}
@@ -344,7 +346,7 @@ $19 = 0x80005d0
 ```as
 appmain:
     movs    r0, #0
- 
+
     bx      lr
 ```
 
