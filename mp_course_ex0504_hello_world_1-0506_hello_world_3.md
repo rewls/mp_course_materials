@@ -1,8 +1,33 @@
-# mp_course_ex0504_hello_world_1-0506_hello_word_3
+# mp_course_ex0504_hello_world_1-0506_hello_world_3
 
 ## mp_course_ex0504_hello_world_1_stmvldisco_baremetal_qemu
 
 ### Debug
+
+- `output/mp_course_ex0504_hello_world_1_stm32vldisco_baremetal_qemu/app.s`
+
+```as
+080001e0 <appmain>:
+appmain():
+/home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0504_hello_world_1/appmain.c:14
+ 80001e0:	b580      	push	{r7, lr}
+ 80001e2:	b082      	sub	sp, #8
+ 80001e4:	af00      	add	r7, sp, #0
+ 80001e6:	6078      	str	r0, [r7, #4]
+ 80001e8:	6039      	str	r1, [r7, #0]
+/home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0504_hello_world_1/appmain.c:15
+ 80001ea:	4804      	ldr	r0, [pc, #16]	; (80001fc <appmain+0x1c>)
+ 80001ec:	f002 f852 	bl	8002294 <iprintf>
+/home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0504_hello_world_1/appmain.c:17
+ 80001f0:	2300      	movs	r3, #0
+/home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0504_hello_world_1/appmain.c:18
+ 80001f2:	4618      	mov	r0, r3
+ 80001f4:	3708      	adds	r7, #8
+ 80001f6:	46bd      	mov	sp, r7
+ 80001f8:	bd80      	pop	{r7, pc}
+ 80001fa:	bf00      	nop
+ 80001fc:	20000180 	.word	0x20000180
+```
 
 ```c
 Breakpoint 2, appmain (argc=1, argv=0x20001fec) at /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0504_hello_world_1/appmain.c:15
@@ -18,25 +43,12 @@ Breakpoint 2, appmain (argc=1, argv=0x20001fec) at /home/rewls/git/ubiworks/libr
 17          return 0;
 18      }
 19
-(gdb) x/12i appmain
-   0x80001e0 <appmain>: push    {r7, lr}
-   0x80001e2 <appmain+2>:       sub     sp, #8
-   0x80001e4 <appmain+4>:       add     r7, sp, #0
-   0x80001e6 <appmain+6>:       str     r0, [r7, #4]
-   0x80001e8 <appmain+8>:       str     r1, [r7, #0]
-=> 0x80001ea <appmain+10>:      ldr     r0, [pc, #16]   ; (0x80001fc <appmain+28>)
-   0x80001ec <appmain+12>:      bl      0x8002294 <printf>
-   0x80001f0 <appmain+16>:      movs    r3, #0
-   0x80001f2 <appmain+18>:      mov     r0, r3
-   0x80001f4 <appmain+20>:      adds    r7, #8
-   0x80001f6 <appmain+22>:      mov     sp, r7
-   0x80001f8 <appmain+24>:      pop     {r7, pc}
-(gdb) x/wx appmain+28
+(gdb) x/wx appmain+0x1c
 0x80001fc <appmain+28>: 0x20000180
+(gdb) x/s 0x20000180
+0x20000180 <msgstr>:    "Hello World!\n"
 (gdb) p msgstr
 $1 = "Hello World!\n"
-(gdb) p &msgstr
-$2 = (char (*)[14]) 0x20000180 <msgstr>
 ```
 
 ## mp_course_ex0505_hello_world_2_stmvldisco_baremetal_qemu
@@ -50,7 +62,7 @@ msgstr:
 
 - Modern Assembly Language Programming with the ARM Processor > Chapter 2 GNU Assembly Syntax
 
-```sh
+```as
 $ arm-none-eabi-as mp_course_ex0505_hello_world_2/appmain.S -al
 ARM GAS  mp_course_ex0505_hello_world_2/appmain.S                       page 1
 

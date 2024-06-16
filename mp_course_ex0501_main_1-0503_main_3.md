@@ -13,6 +13,30 @@ int appmain(int argc, char * argv[])
 
 ### Debug
 
+- `/output/mp_course_ex0501_main_1_stm32vldisco_baremetal_qemu/app.s`
+
+    ```as
+    ...
+    080001e0 <appmain>:
+    appmain():
+    /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0501_main_1/appmain.c:10
+     80001e0:	b480      	push	{r7}
+     80001e2:	b083      	sub	sp, #12
+     80001e4:	af00      	add	r7, sp, #0
+     80001e6:	6078      	str	r0, [r7, #4]
+     80001e8:	6039      	str	r1, [r7, #0]
+    /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0501_main_1/appmain.c:11
+     80001ea:	2300      	movs	r3, #0
+    /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0501_main_1/appmain.c:12
+     80001ec:	4618      	mov	r0, r3
+     80001ee:	370c      	adds	r7, #12
+     80001f0:	46bd      	mov	sp, r7
+     80001f2:	bc80      	pop	{r7}
+     80001f4:	4770      	bx	lr
+     80001f6:	bf00      	nop
+    ...
+    ```
+
 ```c
 (gdb) l
 78      #endif
