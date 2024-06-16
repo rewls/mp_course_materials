@@ -20,7 +20,7 @@
 
 - [x] [mp_course_ex0602_accessing_psr](mp_course_ex0602_accessing_psr.md)
 
-- [ ] mp_course_ex0603_interrupt_masking
+- [x] [mp_course_ex0603_interrupt_masking](mp_course_ex0603_interrupt_masking.md)
 
 - [ ] mp_course_ex0604_accessing_control
 
