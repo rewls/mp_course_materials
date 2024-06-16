@@ -3,7 +3,7 @@ FROM archlinux:latest
 RUN pacman -Syu --noconfirm && \
 	pacman -S --noconfirm base-devel ccache cmake git noto-fonts python \
 	python-pip python-virtualenv qemu qemu-system-arm tk vim xterm && \
-	useradd -m -s /bin/bash build -p build && \
+	useradd -m -s /bin/bash build && \
 	echo "build ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 

@@ -1,4 +1,4 @@
-# mp_course_ex0401
+# mp_course_ex0401_stm32vldisco_baremetal_qemu
 
 ## Source
 
@@ -28,7 +28,7 @@ void GPIO_reset(GPIO_TypeDef* GPIOx)
 
 - CMSIS device
 
-- The Definitive Guide to ARM® Cortex<sup>®</sup>-M3 and Cortex<sup>®</sup>-M4 Processors > 2.7 Inputs, outputs, and peripherals accesses
+- The Definitive Guide to ARM<sup>®</sup> Cortex<sup>®</sup>-M3 and Cortex<sup>®</sup>-M4 Processors > 2.7 Inputs, outputs, and peripherals accesses
 
 ```c
 int appmain(int argc, char * argv[])
