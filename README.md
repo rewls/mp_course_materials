@@ -26,7 +26,7 @@
 
 - [x] [mp_course_ex0605_integer_status_flags](mp_course_ex0605_integer_status_flags.md)
 
-- [ ] mp_course_ex0606_q_status_flags
+- [x] [mp_course_ex0606_q_status_flags](mp_course_ex0606_q_status_flags.md)
 
 - [ ] mp_course_ex0607_ge_bits
 
