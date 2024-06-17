@@ -28,7 +28,7 @@
 
 - [x] [mp_course_ex0606_q_status_flags](mp_course_ex0606_q_status_flags.md)
 
-- [ ] mp_course_ex0607_ge_bits
+- [x] [mp_course_ex0607_ge_bits](mp_course_ex0607_ge_bits.md)
 
 - [ ] mp_course_ex0608_system_control_space
 
