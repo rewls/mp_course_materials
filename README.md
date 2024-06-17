@@ -30,7 +30,7 @@
 
 - [x] [mp_course_ex0607_ge_bits](mp_course_ex0607_ge_bits.md)
 
-- [ ] mp_course_ex0608_system_control_space
+- [x] [mp_course_ex0608_system_control_space](mp_course_ex0608_system_control_space.md)
 
 - [ ] mp_course_ex0609_stack
 
