@@ -1,4 +1,4 @@
-# mp_course_ex0603_interrupt_masking
+# mp_course_ex0603_interrupt_masking_stm32vldisco_baremetal_qemu
 
 ## Debug
 

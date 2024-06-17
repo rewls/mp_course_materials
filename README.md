@@ -22,7 +22,7 @@
 
 - [x] [mp_course_ex0603_interrupt_masking](mp_course_ex0603_interrupt_masking.md)
 
-- [ ] mp_course_ex0604_accessing_control
+- [x] [mp_course_ex0604_accessing_control-_2](mp_course_ex0604_accessing_control-_2.md)
 
 - [ ] mp_course_ex0604_accessing_control_2
 

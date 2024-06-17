@@ -1,4 +1,4 @@
-# mp_course_ex0602_accessing_psr
+# mp_course_ex0602_accessing_psr_stm32vldisco_baremetal_qemu
 
 ## Source
 
