@@ -32,7 +32,7 @@
 
 - [x] [mp_course_ex0608_system_control_space](mp_course_ex0608_system_control_space.md)
 
-- [ ] mp_course_ex0609_stack
+- [x] [mp_course_ex0609_stack](mp_course_ex0609_stack.md)
 
 - [ ] mp_course_ex0610_stack_in_function
 

@@ -5,6 +5,7 @@
 - 실행 결과
 
 ```
+VNC server running on ::1:5900
 SCnSCB                      = 0xd000e000
 SCB                         = 0xe000ed00
     SCB->CCR                = 0xe000ed14
