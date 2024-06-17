@@ -24,9 +24,7 @@
 
 - [x] [mp_course_ex0604_accessing_control-_2](mp_course_ex0604_accessing_control-_2.md)
 
-- [ ] mp_course_ex0604_accessing_control_2
-
-- [ ] mp_course_ex0605_integer_status_flags
+- [x] [mp_course_ex0605_integer_status_flags](mp_course_ex0605_integer_status_flags.md)
 
 - [ ] mp_course_ex0606_q_status_flags
 

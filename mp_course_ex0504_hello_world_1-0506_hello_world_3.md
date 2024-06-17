@@ -127,9 +127,9 @@ $4 = 0x20000180 "Hello World!\n"
 (gdb) n
 33          bl      printf
 (gdb) p/x $r0
-$8 = 0x20000180
+$5 = 0x20000180
 (gdb) p printf
-$9 = {<text variable, no debug info>} 0x8002294 <printf>
+$6 = {<text variable, no debug info>} 0x8002294 <printf>
 (gdb) x/19i printf
    0x8002294 <printf>:  push    {r0, r1, r2, r3}
    0x8002296 <printf+2>:        ldr     r3, [pc, #40]   ; (0x80022c0 <printf+44>)

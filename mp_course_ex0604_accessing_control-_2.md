@@ -32,6 +32,7 @@ appmain () at /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course
 (gdb) p/x $control
 $6 = 0x2
 (gdb) p/x $sp
+$7 = 0x0
 (gdb) n
 appmain () at /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0604_accessing_control/appmain.S:32
 32          mrs     r0, control
@@ -55,14 +56,14 @@ $11 = 0x20001fe8
 ```as
 38          msr     control, r0
 (gdb) p/x $r0
-$1 = 0x2
+$12 = 0x2
 (gdb) n
 appmain () at /home/rewls/git/ubiworks/library/mp_course_materials/app/mp_course_ex0604_accessing_control/appmain.S:40
 40          mov     r0, #0
 (gdb) p/x $control
-$2 = 0x2
+$13 = 0x2
 (gdb) p/x $sp
-$3 = 0x20
+$14 = 0x20
 ```
 
 ```as
@@ -70,7 +71,7 @@ $3 = 0x20
 (gdb) n
 48          mov     r2, #0
 (gdb) p/x $r1
-$4 = 0xe000ed00
+$15 = 0xe000ed00
 ```
 
 ```as
@@ -78,17 +79,17 @@ $4 = 0xe000ed00
 (gdb) n
 51          mrs     r0, control
 (gdb) p/x $r2
-$5 = 0x410fc231
+$16 = 0x410fc231
 ```
 
 ```as
 53          msr     control, r0
 (gdb) p/x $r0
-$6 = 0x3
+$17 = 0x3
 (gdb) n
 55          mov     r0, #0
 (gdb) p/x $control
-$7 = 0x3
+$18 = 0x3
 ```
 
 ```as
@@ -101,7 +102,7 @@ $7 = 0x3
 WWDG_IRQHandler () at /home/rewls/git/ubiworks/library/ubinos/source/ubinos/bsp/arch/arm/cortexm/stm32f100/gcc_startup_stm32f100.S:278
 278         b       .
 (gdb) p/x $r2
-$8 = 0x0
+$19 = 0x0
 ```
 
 ## mp_course_ex0604_accessing_control_2_stm32vldisco_baremetal_qemu
@@ -148,5 +149,5 @@ $9 = 0x1
 (gdb) n
 52          bx      lr
 (gdb) p/x $r2
-$13 = 0x410fc231
+$10 = 0x410fc231
 ```

@@ -23,11 +23,11 @@ $3 = 0
 ```as
 41          cpsid   f
 (gdb) p $faultmask
-$1 = 0
+$4 = 0
 (gdb) n
 42          mov     r0, #0
 (gdb) p $faultmask
-$2 = 1
+$5 = 1
 ```
 
 ```as
@@ -35,5 +35,5 @@ $2 = 1
 (gdb) n
 45          mov     r0, #0
 (gdb) p $faultmask
-$3 = 0
+$6 = 0
 ```
