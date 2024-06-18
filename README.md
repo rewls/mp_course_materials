@@ -48,7 +48,7 @@
 
 - [x] [mp_course_ex0706_vmov](mp_course_ex0706_vmov.md)
 
-- [ ] mp_course_ex0707_vmrs_vmsr
+- [x] [mp_course_ex0707_vmrs_vmsr](mp_course_ex0707_vmrs_vmsr.md)
 
 - [ ] mp_course_ex0708_mov_large_imm
 

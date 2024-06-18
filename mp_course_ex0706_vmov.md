@@ -7,21 +7,21 @@
 (gdb) n
 26          vmov    r0, s0
 (gdb) p $s0
-$2 = 2.25
+$1 = 2.25
 (gdb) p/x $s0
-$1 = 0x2
+$2 = 0x2
 (gdb) info register s0
 s0             2.25                (raw 0x40100000)
 (gdb) n
 29          vmov.f32 s0, #1.0
 (gdb) p/x $r0
-$6 = 0x40100000
+$3 = 0x40100000
 (gdb) n
 32          vmov    s0, r0
 (gdb) p $s0
-$7 = 1
+$4 = 1
 (gdb) p/x $s0
-$8 = 0x1
+$5 = 0x1
 (gdb) info register s0
 s0             1                   (raw 0x3f800000)
 (gdb) n
