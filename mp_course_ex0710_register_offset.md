@@ -39,16 +39,6 @@ $8 = {0x0, 0x1, 0x2, 0x0, 0x0, 0x0, 0x0, 0x0}
 ```
 
 ```as
-63          ldr     r7, =int_array_2
-(gdb) n
-64          stmia   r7, {r0-r3}
-(gdb) n
-65          mov     r7, #0
-(gdb) p/x (int[8])int_array_2
-$9 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}
-```
-
-```as
 68          ldr     r7, =int_array
 (gdb) n
 70          ldr     r0, [r7], #4

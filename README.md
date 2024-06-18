@@ -56,7 +56,7 @@
 
 - [x] [mp_course_ex0710_register_offset](mp_course_ex0710_register_offset.md)
 
-- [ ] mp_course_ex0711_multiple_load_store
+- [x] [mp_course_ex0711_multiple_load_store](mp_course_ex0711_multiple_load_store.md)
 
 - [ ] mp_course_ex0712_multiple_load_store_fpu
 
