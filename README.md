@@ -50,7 +50,7 @@
 
 - [x] [mp_course_ex0707_vmrs_vmsr](mp_course_ex0707_vmrs_vmsr.md)
 
-- [ ] mp_course_ex0708_mov_large_imm
+- [x] [mp_course_ex0708_mov_large_imm](mp_course_ex0708_mov_large_imm.md)
 
 - [ ] mp_course_ex0709_mem_imm_offset
 
