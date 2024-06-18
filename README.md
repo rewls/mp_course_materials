@@ -46,7 +46,7 @@
 
 - [x] [mp_course_ex0705_mvn](mp_course_ex0705_mvn.md)
 
-- [ ] mp_course_ex0706_vmov
+- [x] [mp_course_ex0706_vmov](mp_course_ex0706_vmov.md)
 
 - [ ] mp_course_ex0707_vmrs_vmsr
 
