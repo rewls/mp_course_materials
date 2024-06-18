@@ -1,5 +1,9 @@
 # mp_course_ex0701_mov_movs_netduinoplus2_baremetal_qemu
 
+## Source
+
+- The Definitive Guide to ARM<sup>®</sup> Cortex<sup>®</sup>-M3 and Cortex<sup>®</sup>-M4 Processors > Chapter 5. Instruction Set
+
 ## Debug
 
 ```as

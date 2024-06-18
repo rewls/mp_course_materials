@@ -38,9 +38,9 @@
 
 - [x] [mp_course_ex0701_mov_movs](mp_course_ex0701_mov_movs.md)
 
-- [ ] [mp_course_ex0702_mrs_msr](mp_course_ex0702_mrs_msr.md)
+- [x] [mp_course_ex0702_mrs_msr](mp_course_ex0702_mrs_msr.md)
 
-- [ ] mp_course_ex0703_mov_movs_imm
+- [x] [mp_course_ex0703_mov_movs_imm](mp_course_ex0703_mov_movs_imm.md)
 
 - [ ] mp_course_ex0704_movw_movt
 
