@@ -52,7 +52,7 @@
 
 - [x] [mp_course_ex0708_mov_large_imm](mp_course_ex0708_mov_large_imm.md)
 
-- [ ] mp_course_ex0709_mem_imm_offset
+- [x] [mp_course_ex0709_mem_imm_offset](mp_course_ex0709_mem_imm_offset.md)
 
 - [ ] mp_course_ex0710_register_offset
 
