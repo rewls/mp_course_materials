@@ -42,7 +42,7 @@
 
 - [x] [mp_course_ex0703_mov_movs_imm](mp_course_ex0703_mov_movs_imm.md)
 
-- [ ] mp_course_ex0704_movw_movt
+- [x] [mp_course_ex0704_movw_movt](mp_course_ex0704_movw_movt.md)
 
 - [ ] mp_course_ex0705_mvn
 
