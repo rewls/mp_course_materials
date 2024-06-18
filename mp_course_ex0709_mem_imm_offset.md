@@ -29,25 +29,25 @@ $5 = 0xfd
 (gdb) n
 65          ldr     r7, =word_array
 (gdb) p/x $r3
-$7 = 0xfffffffd
+$6 = 0xfffffffd
 (gdb) n
 66          ldrd    r4,r5, [r7, #0x4]
 (gdb) p/x (int[6])word_array
-$8 = {0x3020100, 0x13121110, 0x23222120, 0x33323130, 0x43424140, 0x53525150}
+$7 = {0x3020100, 0x13121110, 0x23222120, 0x33323130, 0x43424140, 0x53525150}
 (gdb) n
 68          ldr     r7, =word_array_2
 (gdb) p/x $r4
-$9 = 0x13121110
+$8 = 0x13121110
 (gdb) p/x $r5
-$10 = 0x23222120
+$9 = 0x23222120
 (gdb) p/x (int[6])word_array_2
-$11 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0}
+$10 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0}
 (gdb) n
 69          strd    r4,r5, [r7, #0x4]
 (gdb) n
 73          mov     r0, #0
 (gdb) p/x (int[6])word_array_2
-$12 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0}
+$11 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0}
 ```
 
 ```as
@@ -55,33 +55,33 @@ $12 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0}
 (gdb) n
 87          ldr     r0, [r7, #0x4]!     @ After the access to memory[r7 + 0x4], r7 is updated to r7 + 0x4
 (gdb) p/x $r7
-$13 = 0x20000210
+$12 = 0x20000210
 (gdb) n
 88          ldr     r1, [r7, #0x4]!     @ After the access to memory[r7 + 0x4], r7 is updated to r7 + 0x4
 (gdb) p/x $r0
-$15 = 0x13121110
+$13 = 0x13121110
 (gdb) p/x $r7
 $14 = 0x20000214
 (gdb) n
 91          ldr     r7, =word_array_2
 (gdb) p/x $r1
-$16 = 0x23222120
+$15 = 0x23222120
 (gdb) p/x $r7
-$17 = 0x20000218
+$16 = 0x20000218
 (gdb) n
 93          str     r0, [r7, #0x4]!     @ After the access to memory[r7 + 0x4], r7 is updated to r7 + 0x4
 (gdb) p/x $r7
-$18 = 0x20000228
+$17 = 0x20000228
 (gdb) n
 94          str     r1, [r7, #0x4]!     @ After the access to memory[r7 + 0x4], r7 is updated to r7 + 0x4
 (gdb) p/x (int[6])word_array_2
-$19 = {0x0, 0x13121110, 0x0, 0x0, 0x0, 0x0}
+$18 = {0x0, 0x13121110, 0x0, 0x0, 0x0, 0x0}
 (gdb) p/x $r7
-$20 = 0x2000022c
+$19 = 0x2000022c
 (gdb) n
 98          mov     r0, #0
 (gdb) p/x (int[8])word_array_2
-$21 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0, 0xf42400, 0x20000248}
+$20 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0, 0xf42400, 0x20000248}
 ```
 
 ```as
@@ -91,31 +91,31 @@ $21 = {0x0, 0x13121110, 0x23222120, 0x0, 0x0, 0x0, 0xf42400, 0x20000248}
 (gdb) n
 110         ldr     r1, [pc, #20]
 (gdb) p/x $r0
-$23 = 0x50004
+$21 = 0x50004
 (gdb) x/x (int)($pc + 4 + 20) & ~0x2
 0x80002f4 <appmain+176>:        0x00070006
 (gdb) n
 111         ldr.w   r2, [pc, #20]
 (gdb) p/x $r1
-$25 = 0x70006
+$22 = 0x70006
 (gdb) x/x (int)($pc + 4 + 20) & ~0x2
 0x80002f4 <appmain+176>:        0x00070006
 (gdb) n
 112         ldr.w   r3, [pc, #20]
 (gdb) p/x $r2
-$5 = 0x70006
+$23 = 0x70006
 (gdb) x/x (int)($pc + 4 + 20) & ~0x2
 0x80002f8 <appmain+180>:        0x00090008
 (gdb) n
 113         ldr     r4, [pc, #20]
 (gdb) p/x $r3
-$6 = 0x90008
+$24 = 0x90008
 (gdb) x/x (int)($pc + 4 + 20) & ~0x2
 0x80002fc <appmain+184>:        0x000b000a
 (gdb) n
 116         bx      lr          @ 16 bit
 (gdb) p/x $r4
-$7 = 0xb000a
+$25 = 0xb000a
 ```
 
 - Cortex-M4 Devices Generic User Guide > 3.3.6 PC-relative expressions

@@ -54,7 +54,7 @@
 
 - [x] [mp_course_ex0709_mem_imm_offset](mp_course_ex0709_mem_imm_offset.md)
 
-- [ ] mp_course_ex0710_register_offset
+- [x] [mp_course_ex0710_register_offset](mp_course_ex0710_register_offset.md)
 
 - [ ] mp_course_ex0711_multiple_load_store
 

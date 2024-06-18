@@ -37,13 +37,13 @@
 ```as
 43          movw    r0, #0x789A @ Set R0 to 0x0000789A
 (gdb) p/x $r0
-$2 = 0x1
+$1 = 0x1
 (gdb) n
 44          movt    r0, #0x3456 @ Set upper 16-bit of R0 to 0x3456, now R0 = 0x3456789A
 (gdb) p/x $r0
-$3 = 0x789a
+$2 = 0x789a
 (gdb) n
 47          bx      lr
 (gdb) p/x $r0
-$4 = 0x3456789a
+$3 = 0x3456789a
 ```
