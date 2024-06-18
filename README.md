@@ -44,7 +44,7 @@
 
 - [x] [mp_course_ex0704_movw_movt](mp_course_ex0704_movw_movt.md)
 
-- [ ] mp_course_ex0705_mvn
+- [x] [mp_course_ex0705_mvn](mp_course_ex0705_mvn.md)
 
 - [ ] mp_course_ex0706_vmov
 
