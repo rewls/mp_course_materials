@@ -36,9 +36,9 @@
 
 - [x] [mp_course_ex0610_stack_in_function](mp_course_ex0610_stack_in_function.md)
 
-- [ ] [mp_course_ex0701_mov_movs](mp_course_ex0701_mov_movs.md)
+- [x] [mp_course_ex0701_mov_movs](mp_course_ex0701_mov_movs.md)
 
-- [ ] mp_course_ex0702_mrs_msr
+- [ ] [mp_course_ex0702_mrs_msr](mp_course_ex0702_mrs_msr.md)
 
 - [ ] mp_course_ex0703_mov_movs_imm
 
