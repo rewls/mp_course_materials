@@ -60,7 +60,7 @@
 
 - [x] [mp_course_ex0712_multiple_load_store_fpu](mp_course_ex0712_multiple_load_store_fpu.md)
 
-- [ ] mp_course_ex0713_stack_push_pop
+- [x] [mp_course_ex0713_stack_push_pop](mp_course_ex0713_stack_push_pop.md)
 
 - [ ] mp_course_ex0714_stack_push_pop_fpu
 
