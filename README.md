@@ -62,7 +62,7 @@
 
 - [x] [mp_course_ex0713_stack_push_pop](mp_course_ex0713_stack_push_pop.md)
 
-- [ ] mp_course_ex0714_stack_push_pop_fpu
+- [x] [mp_course_ex0714_stack_push_pop_fpu](mp_course_ex0714_stack_push_pop_fpu.md)
 
 - [ ] mp_course_ex0715_load_store_unprivileged
 
