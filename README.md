@@ -64,7 +64,7 @@
 
 - [x] [mp_course_ex0714_stack_push_pop_fpu](mp_course_ex0714_stack_push_pop_fpu.md)
 
-- [ ] mp_course_ex0715_load_store_unprivileged
+- [x] [mp_course_ex0715_load_store_unprivileged](mp_course_ex0715_load_store_unprivileged.md)
 
 - [ ] mp_course_ex0716_exclusive_access
 
