@@ -66,13 +66,7 @@
 
 - [x] [mp_course_ex0715_load_store_unprivileged](mp_course_ex0715_load_store_unprivileged.md)
 
-- [ ] mp_course_ex0716_exclusive_access
-
-- [ ] mp_course_ex0716_exclusive_access_2
-
-- [ ] mp_course_ex0716_exclusive_access_3
-
-- [ ] mp_course_ex0716_exclusive_access_4
+- [x] [mp_course_ex0716_exclusive_access-_4](mp_course_ex0716_exclusive_access-_4.md)
 
 - [ ] mp_course_ex0717_arithmetic_operation
 
