@@ -68,7 +68,7 @@
 
 - [x] [mp_course_ex0716_exclusive_access-_4](mp_course_ex0716_exclusive_access-_4.md)
 
-- [ ] mp_course_ex0717_arithmetic_operation
+- [x] [mp_course_ex0717_arithmetic_operation](mp_course_ex0717_arithmetic_operation.md)
 
 - [ ] mp_course_ex0718_logic_operation
 
